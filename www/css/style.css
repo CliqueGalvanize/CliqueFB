@@ -81,7 +81,7 @@ label.item.valid-lr {
   font-size: 30px;
   padding-right: 1px;
   color: white;
-  float: right;
+  display: inline;
 }
 .iconGroupSize{
   font-size: 21px;
@@ -96,7 +96,7 @@ label.item.valid-lr {
   float: left;
 }
 .footerProfile{
-  margin-left: 11%;
+  /*margin-left: 11%;*/
   font-size: 10px;
   font-family: 'cliqueFont';
 }
@@ -194,3 +194,9 @@ label.item.valid-lr {
 /*.left{
   padding-right: 10px;
 }*/
+
+.footContainer{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
